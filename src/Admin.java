@@ -18,9 +18,9 @@ public class Admin {
     }
     private void logIn(){
         System.out.println("Insert your name and password");
-        System.out.print("Name --");
+        System.out.print("Name -- ");
         String checkName = scanner.nextLine();
-        System.out.print("Password --");
+        System.out.print("Password -- ");
         String checkPassword = scanner.nextLine();
         if(!checkPassword.equals(this.adminPassword) && !checkName.equals(this.adminName)){
             System.out.println("Incorrect password or name");

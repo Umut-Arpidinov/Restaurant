@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Weclome to our restaurant!\nPress s to start");
+        System.out.println("Weclome to our restaurant!\nPress s to start\n");
         String start = scan.nextLine();
         if(start.equals("s")){
             System.out.println("Who are you ?");
