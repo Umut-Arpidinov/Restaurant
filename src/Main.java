@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
@@ -13,9 +14,11 @@ public class Main {
                 Admin admin = new Admin();
                 admin.welcome();
 
+            } else if (role.equals("Manager")) {
+                Manager manager = new Manager();
+                manager.welcome();
             }
+
         }
-
-
     }
 }
